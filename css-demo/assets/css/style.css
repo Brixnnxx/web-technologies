@@ -1,0 +1,25 @@
+/*------css-demo----------*/
+/*  ---------------Box Sizing-----------------  */
+/*-----------color scheme------Main color=#FF75BC*/
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+body{ 
+background-color: rgb(20, 235, 255);
+font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+
+header.primary {
+  background-color:#77F1F5;
+color: #bffffff;
+text-align: center;
+text-shadow: 1px 1px 8px #000000;
+
+
+}
+}

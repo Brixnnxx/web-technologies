@@ -11,7 +11,7 @@
   padding-left: 40px;
   /*Single value short hand*/
   padding: 40px;
-  /* T,R,B,L */
+/* T,R,B,L */
   padding: 20px 40px 20px 40px;
   /* Two Value Top/Bottom / L/R */
   padding: 20px 40px;
@@ -33,6 +33,15 @@ header.primary h2 {
     color: rgb(57, 177, 251)
 }
 
+header.primary h2 {
+  display:flex;
+justify-content:space-around;
+flex-direction:row;
+gap:2rem;
+border-top:7px solid #44c5f8;
+border-bottom: 7px solid #44c5f8;
+padding: 40px 0 50px 0;
+}
 
   body{ 
     background-color: rgb(0, 0, 0);
@@ -41,3 +50,65 @@ header.primary h2 {
     background-repeat:no-repeat;
     background-size: contain;
     }
+
+    section {
+      padding: 20px;
+      background-color:whitesmoke
+      color: #333;
+      border-radius: 12px;
+      box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    #home h2 {
+      color: #32A9ED;
+      margin-bottom: 10px;
+    }
+
+  #home{
+display:flex;
+justify-content:space-around;
+flex-direction:row;
+gap:2rem;
+border-top:1px solid #cccccccc;
+border-bottom: 1px solid #cccccccc;
+padding: 40px 0 50px 0;
+}
+
+#home h3{
+  justify-content:center;
+}
+
+#home p {
+  color: white;
+  line-height: 1.6;
+}
+
+#history h1 {
+  color: #32A9ED;
+  margin-bottom: 10px;
+}
+
+#history{
+  display:flex;
+  justify-content:space-around;
+  flex-direction:row;
+  gap:2rem;
+  border-top:1px solid #cccccccc;
+  border-bottom: 1px solid #cccccccc;
+  padding: 40px 0 50px 0;
+  }
+
+  #questions h1{
+    color: #32A9ED;
+  }
+
+
+  .footer {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 0.9em;
+    color: #777;
+}
+
+@media (max-width: 600px)

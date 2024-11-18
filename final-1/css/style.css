@@ -75,6 +75,16 @@ border-bottom: 1px solid #cccccccc;
 padding: 40px 0 50px 0;
 }
 
+p{
+  display:flex;
+justify-content:space-around;
+flex-direction:row;
+gap:2rem;
+border-top:1px solid #cccccccc;
+border-bottom: 1px solid #cccccccc;
+padding: 40px 0 50px 0;
+}
+
 #home h3{
   justify-content:center;
 }

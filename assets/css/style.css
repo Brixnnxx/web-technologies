@@ -1,3 +1,40 @@
 body{
 background-color:rgba(178, 112, 168, 0.795);   
+font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+    background-repeat:no-repeat;
+    background-size: contain;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 5px 5px 15px #000000;
+    /*long form*/
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    /*Single value short hand*/
+    padding: 40px;
+  /* T,R,B,L */
+    padding: 20px 40px 20px 40px;
+    /* Two Value Top/Bottom / L/R */
+    padding: 20px 40px;
+}
+
+li{
+    text-decoration:none;
+    border: 1px double #c0c0c0;
+   background-color:rgb(185, 149, 198);
+    padding: 7.5px 10px;
+    border-radius:20px;
+}
+
+p{
+ display:flex;
+justify-content:space-around;
+flex-direction:row;
+gap:2rem;
+border-top:1px solid #cccccccc;
+border-bottom: 1px solid #cccccccc;
+padding: 40px 0 50px 0;
 }
